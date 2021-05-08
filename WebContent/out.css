@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+#top{
+   float:left;
+   padding-right: 20px; 
+   width: 100%;
+   margin :0 auto;
+   text-align: center; 
+}
+
+#top ul {
+   list-style: none;
+   
+}
+#top ul li{
+   display: inline-block;
+   padding-top: 10px;
+   padding-right: :10px;
+   width: 150px;
+   height: 60px;
+   border-radius: 0px 0px 50px 50px;
+   background: #F2F2F2;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+   
+
+#login {
+   width: 120px;
+   height: 80px; /* 크기 수정 */
+   top: 8px;
+   position: fixed;
+   right: 0px; /* 오른쪽에 완전히 붙게 수정 */
+   padding: 10px;
+   border-radius: 20px 0px 0px 20px; /* 로그인 탭 모양 설정 */
+   background: grey;
+   text-align: right;
+}
+
+#total {
+
+}
+
+#center {
+	width: 1500px;
+	height: 1000px;
+	text-align: center; 
+}
+
+body {
+	background:#6ba1ff;
+
+}
